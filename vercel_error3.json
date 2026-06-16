@@ -1,0 +1,28 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "content": "The deployed website shows a **404 Not Found** error page. In the preview area of the Vercel deployment details, there is a visible 404 page with the text \"404 NOT FOUND\" and additional details (like a URL path) indicating the requested resource could not be located. The deployment status is marked as \"Ready Latest,\" but the actual site content displays this error rather than the intended application.",
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1781593234,
+  "id": "202606161500325756922a39e64ada",
+  "model": "glm-4.6v",
+  "object": "chat.completion",
+  "request_id": "202606161500325756922a39e64ada",
+  "usage": {
+    "completion_tokens": 86,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "prompt_tokens": 1400,
+    "prompt_tokens_details": {
+      "cached_tokens": 4
+    },
+    "total_tokens": 1486
+  }
+}
